@@ -1,9 +1,11 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-
-    <!-- koudai -->
-    <MyTable :dataset="dataset"/>
+    <div class="container">
+      <div class="row">
+        <MyTable class="offset-2 col-8" :dataset="dataset"/>
+      </div>
+    </div>
   </div>
 </template>
 
