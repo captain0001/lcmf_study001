@@ -1,5 +1,14 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>メンバー</h1>
+    ここにテーブル
   </div>
 </template>
+
+<script>
+export default {
+  name: 'about',
+  data() {
+  }
+}
+</script>
