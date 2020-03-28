@@ -1,14 +1,20 @@
 <template>
   <div class="about">
     <h1>メンバー</h1>
-    ここにテーブル
+    <mytables/>
   </div>
 </template>
 
 <script>
+import mytables from '@/components/tables.vue'
 export default {
-  name: 'about',
-  data() {
+  components: {
+    mytables
+  },
+  computed: {
+    test(){
+      console.log('aa')
+    }
   }
 }
 </script>
