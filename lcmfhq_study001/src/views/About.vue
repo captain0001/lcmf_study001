@@ -10,11 +10,6 @@ import mytables from '@/components/tables.vue'
 export default {
   components: {
     mytables
-  },
-  computed: {
-    test(){
-      console.log('aa')
-    }
   }
 }
 </script>

@@ -4,16 +4,16 @@
   </div>
 </template>
 <script>
-import a from '../../public/master/member.js'
+import accounts from '../../public/master/account'
 export default {
   name: 'tables',
-  props: {
-    a
+  data: {
+    accounts
   },
   watch: {
-    a(){
-      console.log('aa')
-      console.log(a)
+    getAccount(){
+      console.log('getAccount()')
+      console.log(this.accounts)
     }
   }
 }
